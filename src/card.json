@@ -1,0 +1,49 @@
+[{
+        "id": 1,
+        "image": "../Assets/animalSweaters copy/badger.jpg"
+    },
+    {
+        "id": 2,
+        "image": "../Assets/animalSweaters copy/bigEarFox.jpg"
+    },
+    {
+        "id": 3,
+        "image": "../Assets/animalSweaters copy/bunny.jpg"
+    },
+    {
+        "id": 4,
+        "image": "../Assets/animalSweaters copy/cat.jpg"
+    },
+    {
+        "id": 5,
+        "image": "../Assets/animalSweaters copy/elephant.jpg"
+    },
+    {
+        "id": 6,
+        "image": "../Assets/animalSweaters copy/fox.jpg"
+    },
+    {
+        "id": 7,
+        "image": "../Assets/animalSweaters copy/hippo.jpg"
+    },
+    {
+        "id": 8,
+        "image": "../Assets/animalSweaters copy/koala.jpg"
+    },
+    {
+        "id": 9,
+        "image": "../Assets/animalSweaters copy/lizard.jpg"
+    },
+    {
+        "id": 10,
+        "image": "../Assets/animalSweaters copy/monkey.jpg"
+    },
+    {
+        "id": 11,
+        "image": "../Assets/animalSweaters copy/raccoon.jpg"
+    },
+    {
+        "id": 12,
+        "image": "../Assets/animalSweaters copy/redPanda.jpg"
+    }
+]
