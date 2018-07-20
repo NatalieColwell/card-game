@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar"
 import MainCard from "./components/MainCard";
 // import Counter from "./components/Counter";
 import card from "./card.json";
-// import MainCards from "./components/MainCards.css";
+import MainCards from "./components/MainCards.css";
 
 const imgStyle = {
   marginBottom: "30px"
@@ -13,7 +13,6 @@ class App extends React.Component {
   
   state = {
     card: card,
-    selected: [],
     count: 0
   };
 
@@ -22,24 +21,58 @@ class App extends React.Component {
     this.setState({ count: this.state.count + 1 });
     console.log("COUNT", this.state.count)
 
-    // if(this.state.id === )
 
-    // const { selected, card, correct } = this.state;
+    const cardClick = this.state.card.filter(function(card, id) {
+      //  card.clicked = true;
+      // return card.id = id;
+      if(cardClicked[0].clicked) {
+        this.setState({count: 0});
 
-    // if (selected.length === 0) {
-    //   this.setState({ selected: [card.id] })
-    // } else if (selected.length === 1) {
-    //   if (card[selected[0]] === card[card.id]) {
-    //     this.setState({
-    //       correct: correct.concat([selected[0], card.id]),
-    //       selected: []
-    //     });
-    //   } else {
-    //     this.setState({
-    //       selected: [selected[0], card.id]
-    //     });
-    //   }
+        for (let i = 0; i < Card.lenght; i++) {
+          Card[i].clicked = false;
+        } 
+      } else {
+        cardClick[0].clicked = true;
+        this.setState({count: this.state.count +1})
+      }
+
+    }); 
+    const clicked = 
+    card.map(function(setClick) {
+      return setClick.id[];
+     
+    });
+    console.log("please", clicked)
+    console.log("yooo", id)
+    console.log("boooo", this.state.card[id])
+
+    // if (this.state.card[id] === false) {
+    //   cardClick.clicked = true;
+    //    console.log("end game")
+    //    this.setState({count: 0})
+    // } 
+    // let notcardClick = this.state.card.filter(function(card){
+    //   return card.id !==id;
+    // })
+
+    // notcardClick.push(cardClick[0]);
+    
+    
+    // this.setState({card:notcardClick});
+   
+    //  cardClick.clicked = true;
+     
+    // if(this.state.card.clicked === true) {
+    //   console.log("endGame")
+    //   this.setState({ count: 0 });
+      
+    // } else {
+    //   this.setState({ count : this.state.count +1 })
+    
     // }
+
+    // if(this.state. === )
+
   };
 
  shuffleArray(array) {
@@ -65,14 +98,13 @@ class App extends React.Component {
        <div className="container text-center" style={imgStyle}>
        <div className="row">
        <div className="col-md-12">
-          {cardShuffle.map((card, i) => (
+          {cardShuffle.map((card) => (
             <MainCard
               id={card.id}
               key={card.id}
               image={card.image}
               imageClick={this.imageClick}
               onClick={this.id}
-              onCardClick={this.onCardClick}
             />
           ))}
       </div>

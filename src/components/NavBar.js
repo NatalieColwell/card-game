@@ -1,5 +1,5 @@
 import React from "react";
-import MainCards from "./MainCards.css";
+// import MainCards from "./MainCards.css";
 // import Counter from "./Counter";
 
 const navStyle = {
