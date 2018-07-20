@@ -1,0 +1,52 @@
+body {
+    background-image: url("http://rivieraukuleleband.uk/wp-content/uploads/2018/01/cropped-Hawaii_Pattern_Free_Vector_Background_Vol3.png");
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.521)
+}
+
+.jumbotron {
+       background-image: url("http://rivieraukuleleband.uk/wp-content/uploads/2018/01/cropped-Hawaii_Pattern_Free_Vector_Background_Vol3.png");
+       background-blend-mode: overlay;
+       background-color: rgba(255, 255, 255, 0.74);
+       font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif
+}
+
+.navbar {
+    padding: 0.5rem 5rem;
+    background-color: #313335b9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.bg-dark {
+    background-color: #343a40b6 !important;
+}
+
+.images {
+    background: #fff;
+    border-radius: 2px;
+    border-color: white;
+    border: 5px solid #343a40b6;
+    height: 325px;
+    margin: 8px 25px;
+    position: relative;
+    width: 325px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+}
+
+.images:hover {
+    background: #fff;
+    border-radius: 2px;
+    height: 325px;
+    margin: 1rem;
+    position: relative;
+    width: 325px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .22);
+    text-align: left;
+    transform: scale(1.05);
+    transition: .1s;
+}
